@@ -152,6 +152,7 @@ class AccountsController < ApplicationController
       )
     else
       cache_collection(filtered_statuses.limit(5), Status)
+      end
   end
 
   def params_slice(*keys)
