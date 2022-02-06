@@ -151,7 +151,7 @@ class AccountsController < ApplicationController
         params_slice(:max_id, :min_id, :since_id)
       )
     else
-      cache_collection(filtered_statuses.limit(5), Status)
+      cache_collection(filtered_statuses.limit(1), Status)
       end
   end
 
