@@ -173,7 +173,7 @@ GEM
     crack (0.4.5)
       rexml
     crass (1.0.6)
-    css_parser (1.7.1)
+    css_parser (1.11.0)
       addressable
     debug_inspector (1.0.0)
     devise (4.8.1)
@@ -452,7 +452,7 @@ GEM
       activerecord (>= 5)
     pkg-config (1.4.7)
     posix-spawn (0.3.15)
-    premailer (1.14.2)
+    premailer (1.15.0)
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
@@ -468,7 +468,7 @@ GEM
       pry (~> 0.13.0)
     pry-rails (0.3.9)
       pry (>= 0.10.4)
-    public_suffix (4.0.6)
+    public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
     pundit (2.2.0)
